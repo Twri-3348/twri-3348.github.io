@@ -1,4 +1,12 @@
 footer {
     background-color: #379683;
     height: 100px;
+    position: fixed;
+    padding: 10 10 0 10;
+    bottom: 0;
+    width: 100%;
+}
+
+.footertextarea1 {
+    padding-left: 10px;
 }
