@@ -1,9 +1,12 @@
 body {
  font-family: 'Open Sans', sans-serif;
  font-weight: 300;
+ background-color: #5CDB95;
+ color: #05386B;
 }
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Archivo', sans-serif;
  font-weight: 500;
+ color: #EDF5E1;
 }
