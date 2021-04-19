@@ -1,6 +1,6 @@
-footer {
+.footer {
     background-color: #379683;
-    height: 100px;
+    height: 20%;
     position: fixed;
     padding: 10 10 0 10;
     bottom: 0;
