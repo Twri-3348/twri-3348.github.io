@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
  color: #EDF5E1;
 }
 
-.content {
-    padding-left: 15px;
+main {
+  margin-left: 15px;
 }
 
 hr {

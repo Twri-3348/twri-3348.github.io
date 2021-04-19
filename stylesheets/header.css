@@ -1,4 +1,4 @@
-.header {
+header {
     background-color: #5CDB95;
     color: #05386B;
     height: 50px;
@@ -6,23 +6,6 @@
     margin: 0 auto;
     padding-top: 10px;
     padding-left: 15px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
 }
 
-button {
-    font-family: 'Archivo', sans-serif;
-    font-weight: 700;
-    font-size: large;
 
-    background-color: #5CDB95;
-    color: #05386B;
-
-    padding: 0;
-    border: none;
-
-    padding-right: 20px;
-    margin-top: 25px;
-}
