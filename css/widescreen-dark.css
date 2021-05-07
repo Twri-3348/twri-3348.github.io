@@ -1,0 +1,124 @@
+/* Primary color: #E01F32 */
+/* Secondary color: #F5978E */
+/* Third color: #3B6DD9 */
+    :root {
+        background-color: #121212;
+        color: #ffffff;
+
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .page-content-background-design {
+        background-color: #ffffff30;
+        border-color: #ffffff30;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 2px 2px 4px#000000;
+        margin-top: 25px;
+    }
+
+    .article-after-one {
+        margin-top: 15px;
+    }
+
+    #div-with-bottom-margin {
+        margin-bottom: 25px;
+    }
+
+    button {
+        background-color: #E01F32;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+    
+        height: 40px;
+        width: 150px;
+    
+        margin: 1vw;
+
+        border-color: none;
+        border-radius: 5px;
+        border-color: #E01F32;
+
+        cursor: pointer;
+        
+    }
+
+    button:focus {
+        background-color: #F5978E;
+        color: #000000;
+
+        height: 40px;
+        width: 150px;
+    
+        border-radius: 5px;
+        border-color: #F5978E;
+
+        cursor: pointer;
+        
+    }
+    
+    .flexbox-items {
+        display: flex;
+    }
+
+    .flexbox-sidebar {
+        width: 25%;
+    }
+
+    .page-content-flex {
+        width: 50%;
+    }
+
+    .header-flexbox-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-flex {
+        justify-content: flex-start;
+    }
+
+    .footer-flexbox-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .host-info {
+        align-items: flex-end;
+    }
+
+    .navigation-mobile {
+        visibility: hidden;
+        height: 0%;
+        width: 0%;
+    }
+
+    #footer-paragraph {
+        font-size: 2vh;
+        color: #ffffff25;
+    }
+    #alter-ego {
+        font-family: 'Lobster', cursive;
+        font-size: 42px;
+
+        margin-right: 5vw;
+    }
+    
+    #discord-logo-svg {
+        height: 7vh;
+    }
+
+    #discord-wordmark-svg {
+        height: 7vh;
+    }
+
+    #github-logo-circle {
+        height: 7vh;
+    }
+
+    #github-logo-text {
+        height: 7vh;
+    }
