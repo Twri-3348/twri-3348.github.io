@@ -6,8 +6,8 @@
         <meta name="viewport" content="width= device-width, initial-scale= 1">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" media="screen and (min-width: 654px)" href="../css/widescreen-dark.css">
-        <link rel="stylesheet" media="screen and (max-width: 653px)" href="../css/smallscreen-dark.css">
+        <link rel="stylesheet" media="screen and (min-width: 683px)" href="../css/widescreen-dark.css">
+        <link rel="stylesheet" media="screen and (max-width: 682px)" href="../css/smallscreen-dark.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <script type="text/javascript" src="../javascript/main.js"></script>
 
@@ -17,50 +17,95 @@
     <body>
 
         <header>
-            <div class="page-header header-flexbox-items">
-                <div class="logo logo-flex">
-                  <p id="alter-ego">_Twri</p>
-                </div>
-                
-                <div class="navigation-desktop navigation-flex">
-                    <button onclick="location.href='../index.html'" type="button">Home</button>
-                    <button onclick="location.href='projects.html'" type="button">My projects</button>
-                    <button onclick="location.href='photography.html'" type="button">Photography</button>
+            <div class="page-header" id="header">
+
+                <div id="signature-flex">
+                  <p id="signature">_Twri</p>
                 </div>
 
-                <div id="mobile-menu-button" class="navigation-mobile">
-                    <button type="button">Menu</button>
-                </div>
+                <nav>
+                    <div class="navigation-desktop">
+                        <button onclick="location.href='../index.html'" type="button">Home</button>
+                        <button onclick="location.href='projects.html'" type="button">My projects</button>
+                        <button onclick="location.href='photography.html'" type="button">Photography</button>
+                    </div>
+
+                    <div class="navigation-mobile">
+                        <button id="mobile-menu-button" type="button" onclick="toggleMenu()">Menu</button>
+                    </div>
+                </nav>
+
             </div>
         </header>
-        <div class="hr-line"><hr></div>
-        <main>
-            <div class="flexbox-items">
-                 <div class="flexbox-sidebar"></div>
 
-                    <div class="pange-content page-content-flex">
-                        <div id="div-with-bottom-margin" class="article-one page-content-background-design">
-                        <h1 class="header">Work in progress</h1>
-            
-                        <h3 class="subheader">Come back later</h3>   
-                    </div>
-                </div>
-                <div class="flexbox-sidebar"></div>
+        <hr>
+
+        <div id="mobile-nav" class="mobile-menu hidden">
+            <div class="mobile-menu-content">
+                <a class="mobile-menu-link" href="../index.html">Home</a>
+
+                <hr>
+
+                <a class="mobile-menu-link" href="photography.html">Photography</a>
+
+                <hr>
+
+                <a class="mobile-menu-link last-item-in-menu" href="projects.html">My Projects</a>
+
+                <button id="close-menu" onclick="closeMenu()">Close</button>
+
             </div>
+        </div>       
+
+        <script>
+            
+        </script>
+
+        <main>
+
+           <div class="page-content">
+
+                <div class="flexbox-sidebar"></div>
+
+                <article id="first-article" class="article article-background-design">
+
+                    <div class="article-header-content">
+                        <h1>Work in progress</h1>
+                    </div>
+
+                    <hr>
+
+                    <div class="text-and-media">
+                        <h2>Come back later</h2>
+                        <p>Here will be where i have all of my text and photos.</p>
+                    </div>
+                </article>
+
+                <div class="flexbox-sidebar"></div>
+
+           </div>
         </main>
-        <div class="hr-line"><hr></div>
+
         <footer>
-           <div class="page-footer footer-flexbox-items">
-               <div class="social-medias" style="text-align: center;">
-                   <h4>Find me on:</h4>
+
+            <hr>
+
+           <div class="page-footer">
+
+               <div class="my-github">
+                   <h2>Find me on:</h2>
+
                    <div id="github-logo">
                        <a id="github-redirect" target="_blank" href="https://github.com/Twri-3348"><img src="../media/github/GitHub-Mark-Light-120px-plus.png" alt="" id="github-logo-circle"><img src="../media/github/GitHub_Logo_White.png" alt="" id="github-logo-text"></a>
                    </div>  
                 </div>
+
                <div class="host-info">
                     <p id="footer-paragraph">This webpage is being hosted on GitHub and maintained by Twri-3348</p>
                 </div>
+
            </div>
+
         </footer>
     </body>
 </html>
