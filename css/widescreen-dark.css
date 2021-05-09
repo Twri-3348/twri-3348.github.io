@@ -102,19 +102,6 @@
         margin-top: 15px;
     }
 
-    #error-cat {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height: auto;
-
-        box-shadow: 2px 2px 4px#000000;
-    }
-    #error {
-        align-items: center;
-    }
-
     #div-with-bottom-margin {
         margin-bottom: 25px;
     }
@@ -140,12 +127,7 @@
         font-family: 'Lobster', cursive;
         font-size: 42px;
 
-        margin-right: 15px;
-        margin-left: 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        margin: 0px 15px 0px 10px;
 
         cursor: default;
     }
@@ -163,15 +145,6 @@
     #footer-paragraph {
         font-size: 2vh;
         color: #ffffff25;
-    }
-
-    #alter-ego {
-        font-family: 'Lobster', cursive;
-        font-size: 42px;
-
-        margin-right: 5vw;
-
-        cursor: default;
     }
     
     #github-logo-circle, #github-logo-text{
