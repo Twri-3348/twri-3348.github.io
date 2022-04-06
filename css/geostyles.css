@@ -1,0 +1,182 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+@media only screen and (max-width: 1145px) {
+    main {
+        grid-template-columns: auto;
+        grid-template-rows: minmax(100vh, auto);
+        grid-template-areas: 
+        "sisu";
+        }
+
+    .teema-pealkiri {
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .kirjakast {
+        padding: 0.75em;
+        margin: 20px auto 20px auto;
+        max-width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1146px) {
+    main {
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: minmax(100vh, auto);
+    grid-template-areas: 
+    ". sisu .";
+    }
+
+    .teema-pealkiri {
+        white-space: nowrap;
+        font-size: 3em;
+    }
+
+    .tekst {
+        transform: scale(1.5);
+    }
+
+    .kirjakast {
+        width: 40%;
+        padding: 1.5em;
+        margin: 20px 0 20px 0;
+    }
+}
+
+:root {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #928399;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+main {
+    padding-top: 40px;
+    display: grid;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    font-family: 'Roboto', sans-serif;
+}
+
+tr {
+    width: 100px;
+    text-align: center;
+}
+
+ul {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-bg {
+    background-image: url("./linn.jpg");
+    background-position: center;
+}
+
+.background {
+    filter: blur(8px);
+    height: 110%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teema-pealkiri {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
+
+.tekst {
+    position: relative;
+    top: -60%;
+    color: white;
+    text-shadow: 7px 6px 9px black;
+}
+
+.footer-bg {
+    background: url("./tanav.jpg");
+    background-position: bottom;
+    background-size: 100% 750px;
+}
+
+.kirjakast.fadeIn {
+    opacity: 1;
+    transform: translateY(-40px);
+}
+
+.kirjakast {
+    opacity: 0;
+    transition: 1s;
+    min-height: fit-content;
+    box-shadow: 7px 3px 30px rgba(0, 0, 0, 0.75);
+    border-radius: 1em;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.kirjakast-parem {
+    margin-left: auto;
+}
+
+.kirjakast-vasak {
+    margin-right: auto;
+}
+
+.kirjakast-keskel {
+    width: 100%;
+}
+
+.teema-alapealkiri {
+    text-align: center;
+    font-size: 1.9em;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 25px;
+}
+
+.kirjakasti-p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#lehe-content {
+    grid-area: sisu;
+    display: flex;
+    flex-direction: column;
+}
