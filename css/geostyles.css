@@ -97,7 +97,7 @@ ul {
 }
 
 .header-bg {
-    background-image: url("./linn.jpg");
+    background-image: url("../media/linn.jpg");
     background-position: center;
 }
 
@@ -127,7 +127,7 @@ ul {
 }
 
 .footer-bg {
-    background: url("./tanav.jpg");
+    background: url("../media/tanav.jpg");
     background-position: bottom;
     background-size: 100% 750px;
 }
