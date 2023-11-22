@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "name": "tauriteras.github.io",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tauriteras/tauriteras.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tauriteras/tauriteras.github.io/issues"
+  },
+  "homepage": "https://github.com/tauriteras/tauriteras.github.io#readme",
+  "description": ""
+}
